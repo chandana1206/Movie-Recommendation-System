@@ -5,7 +5,7 @@ A machine learning-based recommendation system that suggests movies to users bas
 This project recommends movies based on various features like genre, actor, director, and rating using content-based filtering.
 It also leverages natural language processing (NLP) and cosine similarity to provide personalized movie recommendations.
 
-Features
+Features:
 Movie Title Recommendations: Get movie recommendations based on the movie title you input.
 Top Movies by Genre/Actor/Director: Filter and sort movies based on genre, actor, or director.
 Cosine Similarity: Uses cosine similarity to measure the similarity between movies based on features such as actors, genres, and director.
