@@ -1,19 +1,23 @@
 # Movie-Recommendation-System
 Movie Recommendation System 🎬
 
-A machine learning-based recommendation system that suggests movies to users based on their preferences and previous viewing patterns. This project leverages natural language processing (NLP) and cosine similarity to provide personalized movie recommendations.
+A machine learning-based recommendation system that suggests movies to users based on their preferences and previous viewing patterns.
+This project recommends movies based on various features like genre, actor, director, and rating using content-based filtering.
+It also leverages natural language processing (NLP) and cosine similarity to provide personalized movie recommendations.
 
 Features
-Content-based : Recommends movies similar to a given movie using cosine similarity.
-Filter-Based: Allows filtering of movie recommendations based on genre, actors, and directors.
-Rating-Based Recommendations: Returns the top movies based on ratings.
+Movie Title Recommendations: Get movie recommendations based on the movie title you input.
+Top Movies by Genre/Actor/Director: Filter and sort movies based on genre, actor, or director.
+Cosine Similarity: Uses cosine similarity to measure the similarity between movies based on features such as actors, genres, and director.
+Top-rated Movies: Sorts movies by their ratings to recommend top movies.
 
 Dataset
-The recommendation system uses a dataset containing the following columns:
-title: Movie title
-genres: List of genres associated with the movie
-overview: Brief description of the movie's plot
-ratings: User ratings (0–10 scale)
-cast: Leading actors
-director: Director of the movie
-tags: Keywords and other text data associated with the movie
+The dataset used contains information about over 5000 movies, including:
+Movie Title
+Genre(s)
+Actors
+Director
+Rating
+Year of Release
+Box Office Gross
+
